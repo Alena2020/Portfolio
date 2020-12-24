@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="flexbox-container">
+    <div class="flexbox-item">
+        <div class="header">
+            <header>
+                <h1 id="header">Alena, Front-end developer</h1>
+                <nav id="menu">
+                    <button><a href="#about"><p>About me</p></a></button>
+                    <button><a href="#portfolio"><p>Portfolio</p></a></button>
+                    <button><a href="#contacts"><p>Contacts</p></a></button>
+                    <button><a href=""><p>HOME</p></a></button>
+                </nav>
+
+                <div class="hamburger">
+                    <img id="open-menu-hamburger" src="img/ham-menu-icon.jpg" alt="Menu">
+                    <nav id="menu-hamburger">
+                        <div><a href="#about"><p>About me</p></a></div>
+                        <div><a href="#portfolio"><p>Portfolio</p></a></div>
+                        <div><a href="#contacts"><p>Contacts</p></a></div>
+                        <div><a href=""><p>HOME</p></a></div>
+                        <span id="close-menu-hamburger"><a href="#open-menu-hamburger">Close</a></span>
+                    </nav>
+                </div>
+
+            </header>
+        </div>
+    </div>
+    <div class="flexbox-item">
+        <section id="about">
+            <div class="text">
+                <h2>About me</h2>
+                <div class="photo">
+                    <img src="img/img.jpg" alt="me">
+                </div>
+                <p>I'm Alena.</p>
+                <p>For me, programming is not just a job, it's a hobby.</p>
+                <p>I'm open to new knowledge, I like to study new technologies and apply them in practice.</p>
+                <p><b>Skills:</b> HTML, CSS, JS, React.</p>
+            </div>
+
+        </section>
+    </div>
+    <div class="flexbox-item">
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="window-virtual-piano">
+                <button data-window-target="#window" class="open-window">Virtual Piano</button>
+                <div class="window" id="window">
+                    <div class="window-head">
+                        <div class="title"><h2>Virtual Piano</h2></div>
+                    </div>
+                    <div class="window-body">
+                        <p>You can see the project at the following link: <a href="#">virtual-piano</a></p>
+                        <p>I did this project when I was studying the frontend on HyperSkill. I created
+                            a web page with Virtual Piano, learned some HTML basics and some JS basics
+                            and learned that CSS can easily make a beautiful design.</p>
+                    </div>
+                    <button data-close-button class="close-button">Close</button>
+                </div>
+                <img src="img/Virtual%20Piano.jpg" alt="Virtual Piano">
+                <p>Virtual Piano</p>
+            </div>
+            <div class="window-flashcards">
+                <button data-window-target="#window1" class="open-window">Flashcards</button>
+                <div class="window" id="window1">
+                    <div class="window-head">
+                        <div class="title"><h2>Flashcards</h2></div>
+                    </div>
+                    <div class="window-body">
+                        <p>You can see the project at the following link: <a href="#">flashcards</a></p>
+                        <p>I did this project when I was studying the frontend on HyperSkill. I created
+                            a web page with flip-down flash cards, learned some HTML basics and
+                            learned that CSS can easily make a beautiful design.</p>
+                    </div>
+                    <button data-close-button class="close-button">Close</button>
+                </div>
+                <img src="img/Flashcards.jpg" alt="Flashcards">
+                <p>Flashcards</p>
+            </div>
+            <div id="overlay"></div>
+        </section>
+    </div>
+    <div class="flexbox-item">
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <div class="social-network">
+                <a href="#" class="social-network-link"><img src="img/twitter.svg" alt="twitter"></a>
+                <a href="#" class="social-network-link"><img src="img/instagram.svg" alt="instagram"></a>
+                <a href="#" class="social-network-link"><img src="img/facebook.svg" alt="facebook"></a>
+            </div>
+        </section>
+    </div>
+    <div class="flexbox-item">
+        <footer>
+            <p>Alena, 2020</p>
+        </footer>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

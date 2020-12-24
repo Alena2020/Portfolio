@@ -1,0 +1,237 @@
+body {
+    background-color: deepskyblue;
+}
+
+h1 {
+    font-family: 'Langar', cursive;
+    font-size: 100px;
+    position: page;
+}
+
+h2 {
+    font-family: 'Langar', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Langar', cursive;
+}
+
+header {
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: deeppink;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    font-family: 'Langar', cursive;
+    font-size: 17px;
+    width: 100px;
+    height: 100px;
+    color: magenta;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    border: 3px solid magenta;
+    border-radius: 15px;
+}
+
+footer {
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    color: magenta;
+    height: 300px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.flexbox-item {
+    text-align: center;
+}
+
+#portfolio {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 40px;
+    background-color: dodgerblue;
+}
+
+#portfolio img {
+    width: 600px;
+    height: 450px;
+}
+
+#about img {
+    width: 400px;
+    height: 300px;
+
+}
+
+#about {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightskyblue;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+}
+
+.window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 3px solid magenta;
+    border-radius: 10px;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    font-size: 25px;
+    z-index: 10;
+    width: 500px;
+    max-width: 80%;
+}
+
+.window.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.window-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    transition: 200ms ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.window-flashcards {
+    display: flex;
+    flex-direction: column;
+}
+
+.window-virtual-piano {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-network img {
+    width: 300px;
+    height: 300px;
+}
+
+#menu a, #hamburger-menu a {
+    color: cornflowerblue;
+}
+
+#menu a:hover, #hamburger-menu a:hover, #close-menu-hamburger:hover, header h1:hover {
+    color: blueviolet;
+}
+
+#menu {
+    width: 390px;
+    height: 150px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Hamburger menu */
+#menu-hamburger {
+    height: 500px;
+    width: 130px;
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    position: sticky;
+    display: none;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 20px 0;
+    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1025px) {
+    .hamburger, #menu-hamburger {
+        display: none;
+    }
+
+    #open-menu-hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 1100px) {
+    #open-menu-hamburger {
+        display: block;
+    }
+
+    #portfolio {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        background-color: dodgerblue;
+    }
+
+    #menu {
+        display: none;
+    }
+}
+
+#close-menu-hamburger {
+    font-family: 'Langar', cursive;
+}
+
+#open-menu-hamburger {
+    height: 30px;
+    width: 30px;
+}
+
+
