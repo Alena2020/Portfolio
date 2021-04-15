@@ -51,6 +51,8 @@ button {
 footer {
     background-image: url("img/flower.jpg");
     background-size: cover;
+    box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 50px midnightblue inset,
+    5px 5px 15px aqua, 0 0 20px magenta;
     text-align: center;
     font-size: 30px;
     color: magenta;
@@ -81,11 +83,17 @@ footer {
 }
 
 #portfolio img {
+    border: 1px solid magenta;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 50px midnightblue inset,
+    5px 5px 15px aqua, 0 0 20px magenta;
     width: 600px;
     height: 450px;
 }
 
 #about img {
+    border: 1px solid magenta;
+    border-radius: 15px;
     box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 50px midnightblue inset,
     5px 5px 15px aqua, 0 0 20px magenta;
     width: 400px;
