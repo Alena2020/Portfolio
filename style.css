@@ -88,6 +88,7 @@ footer {
     background-color: dodgerblue;
     box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 50px midnightblue inset,
     5px 5px 15px aqua, 0 0 20px magenta;
+    padding: 20px;
 }
 
 #portfolio img {
