@@ -96,6 +96,7 @@ footer {
     border-radius: 15px;
     box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 50px midnightblue inset,
     5px 5px 15px aqua, 0 0 20px magenta;
+    margin: 20px;
     width: 600px;
     height: 450px;
 }
@@ -105,6 +106,7 @@ footer {
     border-radius: 15px;
     box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 50px midnightblue inset,
     5px 5px 15px aqua, 0 0 20px magenta;
+    margin: 20px;
     width: 400px;
     height: 300px;
 
