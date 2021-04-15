@@ -1,10 +1,9 @@
-# Portfolio - yчебный проект JetBrains Academy
-### Выполнила проект: Алёна
+# Portfolio - JetBrains Academy project
 
-## Технологии:
+## Technologies:
 #### - HTML
 #### - CSS 
 #### - JavaScript
 
-## https://alena2020.github.io/Portfolio/
+## Demo: https://alena2020.github.io/Portfolio/
 
