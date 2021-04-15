@@ -94,7 +94,7 @@ footer {
 #portfolio img {
     border: 1px solid magenta;
     border-radius: 15px;
-    box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 10 10 70px midnightblue inset,
+    box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 30px midnightblue inset,
     5px 5px 15px aqua, 0 0 20px magenta;
     margin: 20px;
     width: 600px;
