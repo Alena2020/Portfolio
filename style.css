@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    position: absolute;
+    position: relative;
     padding-left: 20px;
     padding-right: 20px;
 }
