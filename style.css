@@ -38,8 +38,7 @@ button {
     width: 100px;
     height: 100px;
     color: magenta;
-    background-image: url("img/1.jpg");
-    background-size: cover;
+    background-color: deepskyblue;
     border: 3px solid magenta;
     border-radius: 15px;
     box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, 0 0 60px midnightblue inset,
