@@ -1,5 +1,6 @@
 body {
     background-color: deepskyblue;
+    margin: 0;
 }
 
 h1 {
@@ -57,6 +58,7 @@ footer {
     font-size: 30px;
     color: magenta;
     height: 300px;
+    width: 100%;
 }
 
 .flexbox-container {
