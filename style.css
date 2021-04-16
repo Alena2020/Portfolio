@@ -210,8 +210,7 @@ footer {
 #menu-hamburger {
     height: 500px;
     width: 130px;
-    background-image: url("img/flower.jpg");
-    background-size: cover;
+    background-color: #00bfff;    
     position: fixed;
     display: none;
     flex-direction: column;
