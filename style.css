@@ -215,8 +215,8 @@ footer {
     position: fixed;
     display: none;
     flex-direction: column;
-    top: 0;
-    right: 0;
+    top: 200px;
+    left: 0;
     justify-content: space-around;
     text-align: center;
     padding: 20px 20px 0;
