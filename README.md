@@ -1,4 +1,5 @@
-# Portfolio - JetBrains Academy project
+# Portfolio 
+My project from the JetBrains Academy Track: Frontend Developer.
 
 ## Technologies:
 #### - HTML
