@@ -184,6 +184,16 @@ footer {
     flex-direction: column;
 }
 
+.window-open-space {
+    display: flex;
+    flex-direction: column;
+}
+
+.window-to-do-list {
+    display: flex;
+    flex-direction: column;
+}
+
 .social-network img {
     width: 200px;
     height: 200px;
