@@ -83,6 +83,7 @@ footer {
     height: 900px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
     font-size: 40px;
