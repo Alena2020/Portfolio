@@ -200,6 +200,11 @@ footer {
     flex-direction: column;
 }
 
+.window-hypergram {
+    display: flex;
+    flex-direction: column;
+}
+
 .social-network img {
     width: 200px;
     height: 200px;
